@@ -3546,13 +3546,24 @@ input, select, textarea {
 			.banner.style1 .content {
 				padding: 3rem 0rem 3rem 0rem;
 			}
-
+			.orderly-1 {
+				width: 32.333%;
+			}
+			.orderly-2 {
+				width: 47.666%;
+			}
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			.banner.style1 .content {
 				padding: 2rem 0rem;
+			}
+			.orderly-1{
+				width: 47.666%;
+			}
+			.orderly-2 {
+				width: 47.666%;
 			}
 
 		}
@@ -3570,7 +3581,12 @@ input, select, textarea {
 			.banner.style1 .content {
 				padding: 2.5rem 2rem 0.5rem 2rem ;
 			}
-
+			.orderly-1{
+				width: 100%;
+			}
+			.orderly-2 {
+				width: 100%;
+			}
 
 		}
 
