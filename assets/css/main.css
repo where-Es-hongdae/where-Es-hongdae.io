@@ -17,7 +17,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	font-family: 'Noto Sans', sans-serif;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -95,7 +97,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: black;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -181,6 +183,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2rem 0;
+		text-indent: 30px
 	}
 
 		p.major {
@@ -2070,13 +2073,12 @@ input, select, textarea {
 .detail-box {
 	border: 2px solid black;
 	padding: 2rem;
-	margin: 3rem 0.5rem;
+	margin: 1rem 0.5rem;
 	display: flex;
 	position: relative;
 	float: left;
 	text-align: center;
 	border-radius: 2rem;
-
 }
 
 
@@ -5017,7 +5019,7 @@ input, select, textarea {
 			-webkit-flex-direction: column-reverse;
 			-ms-flex-direction: column-reverse;
 			flex-direction: column-reverse;
-			text-align: center !important;
+			text-align: left !important;
 		}
 
 			.spotlight.style1 .content {
@@ -6866,7 +6868,7 @@ input, select, textarea {
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: 'Noto Sans', sans-serif;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
