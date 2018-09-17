@@ -24,7 +24,7 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
-	height: 100%;
+	/* height: 100%; */
 }
 
 body {
@@ -4918,7 +4918,7 @@ input, select, textarea {
 		.spotlight.style1 .content {
 			/* padding: 7rem 7rem 5rem 7rem ; */
 			padding: 5rem 5rem 3rem 5rem;
-			height: 1200px;
+			/* height: 1200px; */
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -4972,7 +4972,7 @@ input, select, textarea {
 
 			.spotlight.style1 .content {
 				padding: 5rem 5rem 3rem 5rem ;
-				height: 100%;
+				/* height: 100%; */
 			}
 			/* #first {
 		    height: 1350px;
